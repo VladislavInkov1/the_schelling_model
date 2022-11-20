@@ -9,7 +9,7 @@ number_of_friends = int(input('Сколько друзей нужно клетк
 iteration_frequency = int(input('Через сколько итераций сохранять матрицу? '))
 
 
-
+# deleting files after the previous experiment
 def delete_previous_experiment():
     for f in os.listdir('img_iteration/'):
         os.remove(os.path.join('img_iteration/', f))
